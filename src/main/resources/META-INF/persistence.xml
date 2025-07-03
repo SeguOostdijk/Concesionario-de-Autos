@@ -1,0 +1,20 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             version="2.1">
+    <persistence-unit name="concesionario">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <class>com.mycompany.logica.Automovil</class>
+        <properties>
+            <!-- Configuración de la base de datos -->
+            <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/concesionario?serverTimezone=UTC"/>
+            <property name="jakarta.persistence.jdbc.user" value="root"/>
+            <property name="jakarta.persistence.jdbc.password" value=""/>
+
+            <!-- Configuración de EclipseLink -->
+            <property name="eclipselink.logging.level" value="FINE"/>
+            <property name="eclipselink.target-database" value="MySQL"/>
+            <property name="eclipselink.ddl-generation" value="create-or-extend-tables"/>
+        </properties>
+
+    </persistence-unit>
+</persistence>
