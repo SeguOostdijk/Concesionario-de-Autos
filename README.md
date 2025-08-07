@@ -1,6 +1,6 @@
 # Concesionario de autos
 
-Este sistema permite consultar, dar de alta, editar y eliminar (CRUD) automóviles de un concesionario
+Este sistema permite consultar, dar de alta, editar y eliminar (CRUD) automóviles de un concesionario.
 
 ## Tecnologías utilizadas
 
